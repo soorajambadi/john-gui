@@ -113,7 +113,7 @@ void *testjohn_thread::Entry()
 {
 
     wxProcess *pr = new pipedprocess(t_frame);//pr is the wxprocess
-    pid = wxExecute(wxString("john --test"),wxEXEC_ASYNC|wxEXEC_MAKE_GROUP_LEADER,pr);
+    pid = wxExecute(wxString(wxT("john --test")),wxEXEC_ASYNC|wxEXEC_MAKE_GROUP_LEADER,pr);
     t_frame->pid = pid;
     wxInputStream *out = pr->GetInputStream(); // out is the wxoutputstream
     wxChar buf[1024];
@@ -149,7 +149,7 @@ void *ripjohn_thread::Entry()
 {
 
     wxProcess *pr = new pipedprocess(t_frame);//pr is the wxprocess
-    pid2 = wxExecute(wxString("john ") + t_frame->file_path,wxEXEC_ASYNC|wxEXEC_MAKE_GROUP_LEADER,pr);
+    pid2 = wxExecute(wxString(wxT("john ")) + t_frame->file_path,wxEXEC_ASYNC|wxEXEC_MAKE_GROUP_LEADER,pr);
     t_frame->pid2 = pid2;
     wxInputStream *out = pr->GetInputStream(); // out is the wxoutputstream
     wxChar buf[1024];
