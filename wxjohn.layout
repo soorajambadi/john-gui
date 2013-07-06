@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="GUIFrame.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="5023" topLine="93" />
+	</File>
+	<File name="GUIFrame.h" open="1" top="0" tabpos="4">
+		<Cursor position="2922" topLine="0" />
+	</File>
+	<File name="wxjohnApp.cpp" open="1" top="1" tabpos="2">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="wxjohnApp.h" open="1" top="0" tabpos="5">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="wxjohnMain.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="1525" topLine="68" />
+	</File>
+	<File name="wxjohnMain.h" open="1" top="0" tabpos="6">
+		<Cursor position="405" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>
